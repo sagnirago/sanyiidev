@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagni Rago - Web Developer</title>
+    <link rel="website icon" href="images/web-icon.png"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="loader">
+        <div class="progress-bar"></div>
+        <div id="progressNumber">0%</div> 
+    </div>
+    
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <img src="images/Scree.png" alt="Sanyii RG logo" height="100px" width="130px">
+            </div>
+            <nav class="header-right">
+                <ul>
+                    <li><a href="#home" class="qq">HOME</a></li>
+                    <li><a href="#about" class="qq">ABOUT ME</a></li>
+                    <li><a href="#skills" class="qq">SKILLS</a></li>
+                    <li><a href="#work" class="qq">WORK</a></li>
+                    <li><a href="#contact" class="qq">CONTACT ME</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="hamburger-icon" class="hamburger" onclick="toggleMobileMenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar2"></div>
+            <ul class="mobile-menu">
+                <li><a href="#home" class="qq">HOME</a></li>
+                <li><a href="#about" class="qq">ABOUT ME</a></li>
+                <li><a href="#skills" class="qq">SKILLS</a></li>
+                <li><a href="#work" class="qq">WORK</a></li>
+                <li><a href="#contact" class="qq">CONTACT ME</a></li>
+            </ul>
+    </header>
+    
+    <main id="home">
+        <div class="container">
+            <h2 id="kiyaname">SAGNI RAGO</h2>
+            <h1>WEB <span>DEVELOPER</span></h1>
+            <button id="butt">Learn More</button> 
+            <div class="rotating-lines"></div>
+            <img src="images/me1-modifiedd.png" style="border-radius: 100px;" width="240px" height="245px" alt="A portrait of Sagni Rago" class="naann">
+           
+        </div>
+       
+    </main>
+   
+        <section id="about" style="margin-top:0px; ;padding-left: 90px;margin-left: 0px;">
+            <div class="container1" style=" 
+            background-image: url(images/aboutt.jpg);
+               background-repeat: no-repeat;
+               background-position: center;
+               background-size: cover; /* Use cover for better aspect ratio handling */
+               padding: 0;
+               opacity: 0.8;
+               margin-bottom: -50px;
+            
+               margin-left: -90px;;
+               width: 100%;margin-bottom:0px;margin-top:0px;"> 
+              
+
+   
+
+                <div class="about-content" style="margin:70px; border-radius: 10px;padding: 40px;">
+                    <h2 style="text-decoration: underline; text-align: center; color:black;margin-top: -83px; text-shadow: rgb(135, 129, 129);font-weight: bolder;    font: optional;
+    font-family: 'Helvetica , Neue'system-ui, ">About me</h2>
+                    <p>In a world where a strong online presence is essential, I believe building a secure, branded web presence is about more than just aesthetics. It's about strategic execution, meticulous code, and a relentless pursuit of performance. This philosophy drives my approach to web development, a journey that began in 2019 and has been fueled by dedication and a constant drive to master my craft. 
+
+                        <span>While a formal education at Addis Ababa Science and Technology University provided a solid foundation, my true growth came from embracing the challenges of coding. I'm a self-taught developer who thrives on learning, pushing boundaries, and never giving up. </span>"<span id="never">Never give up</span>" isn't just a quote for me; it's a mantra I've seen manifested in my own journey. I've witnessed firsthand the power of perseverance, the way it fuels innovation and drives success.  
+                        
+                       <strong> My expertise lies in WordPress development and project coordination, coupled with a strong foundation in HTML, CSS, JavaScript, and PHP.</strong> I'm passionate about using these skills to create impactful websites that drive business growth. Whether it's building a user-friendly interface, optimizing for speed and security, or crafting a brand that resonates with your target audience, I'm dedicated to delivering results that exceed expectations. 
+                        </p>
+                        <p class="afaan">
+                            <span id="never">Abdii kutachuu</span> kee dura yeroo muraasa fudhadhuutii essaa akka dhuftee fi Xiqqaatus Jijjiirama akkamii akka fidde xiinxali. Tarkaanfiin ati fuul-duratti tarkaanfattu hundi, hagam xiqqaa ta'us, guddinadha. Milkaa'inni waan ati yaaddu caalaa dhiyoodha—gara fuulduraatti dhiibuu kee itti fufi! 
+                          </p>
+                        <h4 style="text-align: center;color: rgb(126, 98, 98); text-decoration: underline;  font-family: 'Helvetica , Neue'system-ui, " >GALATOOMAA!</h4>
+                        <button id="resumeButton">my resume</button>
+                        <a href="images/my resume.pdf" target="_blank" id="resumeLink"></a>
+                        
+                        <style>
+                          #resumeButton {
+                            width: 150px;
+                            min-height: 50px;
+                            border-radius: 10px;
+                            background-color: aquamarine;
+                            color: #6d119e;
+                            font-size: large;
+                            font-weight: bold;
+                          }
+                          #resumeButton:hover {
+                            background-color: #e0ffff;
+                            font-size: large;
+                            transform: rotate(-10px);
+                          }
+                        
+                          #resumeLink {
+                            
+                            display: none;
+                          }
+                        </style>
+                        
+                        <script>
+                          document.getElementById("resumeButton").addEventListener("click", function() {
+                            document.getElementById("resumeLink").click();
+                          });
+                        </script>
+                        
+                </div>
+                <div class="gallery-container">
+                    <div class="gallery-image-container">
+                        <img src="images/hubkiyya.jpg" alt="Image" id="currentImage"> 
+                    </div>
+                    <div class="gallery-controls">
+                        <button onclick="previousImage()"></button>
+                        <button onclick="nextImage1()"></button>
+                        
+                        
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <div class="container">
+                <h2>Specialized Skills</h2>
+                <p>
+                    I am a skilled web developer with expertise in HTML, CSS, JavaScript, PHP, and Python. I create responsive websites and web applications tailored to client needs. Additionally, I develop mobile apps and have a strong background in graphic design and video editing, using tools like Photoshop and Premiere Pro to produce engaging content. My diverse skill set allows me to deliver comprehensive digital solutions.
+                    </p>
+                    
+                <div class="skills-content">
+        
+                    <div class="skill-item">
+                        <img src="images/web-dev-icon.png" alt="Web Development Icon" class="skill-icon">
+                        <div class="skill-info">
+                            <h3 class="skillname">Web Development (Full Stack)</h3>
+                            <ul class="skill-list">
+                                <li >HTML</li>
+                                <li >CSS</li>
+                                <li>JavaScript</li>
+                                <li>PHP (MySQL)</li>
+                                <li>Python</li>  
+                                <li>Node.js </li>  
+                                <li>React.js</li>  
+                                
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="skill-item">
+                        <img src="images/App-dev-icon.png" alt="App Development Icon" class="skill-icon">
+                        <div class="skili-info">
+                            <h3 class="skillname">App Development</h3>
+                            <ul class="skill-list">
+                                
+                                <li class="skilla">Java</li>  
+                                <li class="skilla">Kotlin</li> 
+                                <li class="skilla">React Native</li> 
+                                <li class="skilla">Swift</li> 
+                                <li class="skilla">Flutter</li> 
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="skill-item">
+                        <img src="images/design icon.jpg" alt="Design Icon" class="skill-icon">
+                        <div class="skill-info">
+                            <h3 class="skillname">Design & Multimedia</h3>
+                            <ul class="skill-list">
+                                <li>Graphics Design</li>
+                                <li>Adobe Photoshop</li> 
+                                <li>Adobe Illustrator</li>  
+                                <li>Video Editing</li>
+                                <li>Adobe Premiere Pro</li>
+                                <li>Motion Graphics</li>  
+                                <li>UI/UX Design</li>  
+                            </ul>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        
+     <section id="work">
+        <div class="container" style="gap: 10px;">
+            <h2 style=" align-items: center;margin-left: -40px;color: rgb(29, 124, 207);" >MY WORK</h2>
+            <p style="color: rgb(30, 57, 30); font-weight: 500;">Here are some of my  web development projects. I focus on creating engaging and user-friendly websites with clean code and modern design principles. Click on the images to explore each project in more detail.</p>
+            <div class="work-content">
+                <div class="project">
+                    <a href="https://iridescent-fairy-9e7d48.netlify.app/" target="_blank">
+                        <img src="images/hacee.png" alt="hacee's musics" style="height: 170px;width: 310px;">
+                        <img src="images/hac ph.png" alt="hacee's photo" style="height: 170px;width: 310px;">
+                        <div class="project-overlay">
+                            <span>Hacaaluu musics  & photos  </span>
+                            
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="project2-link.html" target="_blank">
+                        <img src="images/afaan oromoo.png" alt="afaan oromoo" style="height: 170px;width: 310px;">
+                        <img src="images/afaan kiyya.png" alt="afaan oromoo" style="height: 170px;width: 310px;">
+                        <div class="project-overlay">
+                            <span>learn afaan oromo web</span>
+                           
+                        </div>
+                    </a>
+                </div>
+              
+                <div class="project">
+                    <a href="project3-link.html" target="_blank">
+                        <img src="images/kaalendera.png" alt="kaalandera " style="height: 350px;width: 310px;" >
+                        <div class="project-overlay">
+                            <span>calendar converter web</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="project4-link.html" target="_blank">
+                        <img src="images/calculator 2.png " alt="Project 4 Screenshot" style="height: 350px;width: 300px;">
+                     
+                        <div class="project-overlay">
+                            <span>calculator with voice app</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+        <section id="contact">
+            <div class="container">
+                <h2 style="color: white; font-weight: bold; margin-left: -20px;">Contact Me</h2>
+                <div class="contact-content">
+                    <div class="quunn">
+                    <h4 style="font-size: 16px;">Feel free to contact me at:</h4>
+                    <ul class="contme">
+                        <li><a href="mailto:sagnirago2@gmail.com" target="_blank" style="padding: 7px;" id="email"> 
+                            <img src="images/gmail_icon-icons.com_62758.png" alt="email" width="20" height="18" style="border-radius: 10px;margin-bottom: -5px;">
+                            sagnirago2@gmail.com 
+                        </a> </li>
+                        <li><a href="tel:+251967396717" target="_blank"> 
+                            <img src="images/phone call icon.jpeg" alt="Phone Call" width="20" height="20" style="border-radius: 10px; margin-bottom: -3px;">
+                            +251967396717 
+                        </a> </li> 
+                    </ul>
+                </div>
+                
+  <h5>Alternatively, you can send me a message directly using the form below!</h5>
+  <form id="contact-form" onsubmit="sendMail(event)" name="submit-to-google-sheet">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit">Send Message</button>
+    <div id="form-message" aria-live="polite"></div>
+  </form>
+  <span id="msg"></span>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxHDgVhJiUytVoBkUB9EWEnT2LhfhZDyfWJf8imvjDYWFphyLoCvys8y9RVZo1f4Viv/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully. Galatoomaa!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script type="text/javascript" src="script.js"></script>
+
+        <footer>
+            <div class="container4">
+                <div class="footer-content">
+                    <h5 class="name">Sagni RaGo</h5>
+                    <button id="resume"  style="text-decoration: none;">
+                        <a href="images/my resume.pdf" target="_blank" id="resumeLinkk">View My Resume</a>
+                      </button> 
+                      
+                </div>
+                <ul class="social-icons"> 
+                    <li> <a href="https://et.linkedin.com/in/sagni-rago-b97968325" target="_blank"> <img src="images/git.png" alt="gitHub" style="border-radius: 15px;margin-left: px;"> </a> </li>
+                    <li> <a href="https://et.linkedin.com/in/sagni-rago-b97968325" target="_blank"> <img src="images/share-linkedin.png" alt="linkedin" style="border-radius: 5px;margin-left: px;"> </a> </li>
+                    <li> <a href="https://www.facebook.com/sanyiidev" target="_blank"> <img src="images/facebook icon (1).png" alt="Facebook" style="border-radius: 5px; "> </a> </li>
+                    <li> <a href="mailto:sagnirago2@gmail.com" target="_blank"> <img src="images/email1.png" alt="Gmail"  style="border-radius: 12px;"> </a></li> 
+                    <li><a href="tel:+251967396717" target="_blank"> <img src="images/telephone-cartoon-mobile-ph.jpg" alt="Phone Call"  style="border-radius: 15px;"> </a> </li> 
+                </ul>
+            </div>
+            <div class="copyright">
+                <p style="color: beige;">&copy; 2025 Sagni RaGo</p>
+            </div>
+        </footer>
+   
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
